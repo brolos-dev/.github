@@ -15,3 +15,4 @@
 - Cada repo incluye un `.env.example` con los nombres de las variables (sin valores); los `.env` reales van en `.gitignore`.
 - CI/despliegue: GitHub Secrets a nivel de repo (`gh secret set NOMBRE -R brolos-dev/<repo>`).
 - Los `.env` locales se comparten entre owners fuera de banda, nunca por commits, issues ni PRs.
+
